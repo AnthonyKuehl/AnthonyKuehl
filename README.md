@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @AnthonyKuehl
+- 👋 Hi, I’m @JSCoder
 - 👀 I’m interested in HTML,CSS,JS
 <!---
 AnthonyKuehl/AnthonyKuehl is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
