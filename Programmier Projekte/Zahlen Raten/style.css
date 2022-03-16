@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+    font-family: monospace;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+#zahl {
+    font-size: 125px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.btn_restart {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.btn_restart_before {
+    display: none;
+}

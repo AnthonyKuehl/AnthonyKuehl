@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Zahlen Raten</title> 
+        <link rel="stylesheet" href="style.css"> 
+    </head> 
+    <body> 
+        <h1>Zahlen Raten</h1> 
+        <p>Drücke um die Zahl größer/kleiner zu machen. Drücken sie auf den bestätigen Button um die eingabe zu bestätigen. <br> PS: Die Zahl ist zwischen 1 und 10.</p>
+        <p id="zahl"></p> 
+        <div class="buttons" id="buttons"> 
+            <button onclick="up()" id="up">Hoch</button> 
+            <button onclick="down()" id="down">Runter</button> 
+            <button onclick="bestätigen()" id="bestätigen">Bestätigen</button>
+            <button onclick="restart()" id="restart" class="btn_restart_before" >Neu laden</button>
+        </div> 
+        <script src="main.js"></script> 
+    </body> 
+</html>

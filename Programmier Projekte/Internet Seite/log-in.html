@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In - Schiedsrichter im Inline und Eishockey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body class="seite-inline-hockey">
+    <header class="site-header">
+        <a href="startseite.html"><h1>Inline-Hockey + Eishockeyschiedsrichter</h1></a>
+        <p>Das 3. Team auf dem Feld</p>
+    </header>
+    <nav class="site-nav">
+        <ul>
+            <li><a href="startseite.html">Startseite</a></li>
+            <li><a href="inline-hockey.html">Inline-Hockey</a></li>
+            <li><a href="eishockey.html">Eishockey</a></li>
+            <li><a href="ausrüstung.html">Ausrüstung</a></li>
+            <li class="current"><a href="log-in.html">Log-In</a></li>
+        </ul>
+    </nav>
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        </div>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="submit" value="Login" id="login-form-submit">
+        </form>
+      
+      </main>
+    <footer class="site-footer">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+        <a href="#top">Nach oben</a>
+    </footer>
+</body>
+</html>
