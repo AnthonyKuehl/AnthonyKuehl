@@ -284,6 +284,7 @@ p {
 	margin-top: 50px;
 }
 #services .service-item {
+	height: 550px;
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -399,7 +400,7 @@ p {
 }
 .project-info a {
 	text-decoration: none;
-	color: white;
+	color: gray;
 }
 .project-info a:hover {
 	color: red;
